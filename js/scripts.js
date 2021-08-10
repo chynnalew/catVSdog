@@ -10,8 +10,13 @@ $("#dog").click(function() {
 });
 $("#catTreat").click(function() {
   $(".treats#salmon").removeClass();
-})
+});
+$("#catSabotage").click(function() {
+  $("#salmon").remove();
+});
 $("#dogTreat").click(function() {
   $(".treats#meat").removeClass();
-})
 });
+
+});
+
